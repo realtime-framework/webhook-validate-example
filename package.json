@@ -1,5 +1,5 @@
 {
-  "name": "Realtime Webhook Example",
+  "name": "Realtime-Webhook-Example",
   "version": "1.0.0",
   "description": "A simple example to demo the Realtime Webhooks",
   "main": "app.js",
