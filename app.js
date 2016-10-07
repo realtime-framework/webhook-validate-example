@@ -37,7 +37,7 @@ function validate(req, res) {
         var isValid = false;
 
         // compare the signatures
-        if(signature == req.get('x-realtime-signature')) {
+        if(signature === req.get('x-realtime-signature')) {
             // signature is valid
             // check if the trigger message has all the required fields
             try {
